@@ -1,0 +1,68 @@
+.item_edit {
+  background: #fff;
+  width: 400px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .save {
+    padding: 10px;
+    color: rgb(122, 241, 122);
+    background: #fff;
+    border: 1px solid rgb(122, 241, 122);
+    border-radius: 10px;
+    &:hover {
+      color: #fff;
+      background: rgb(122, 241, 122);
+      cursor: pointer;
+    }
+  }
+}
+
+.item {
+  background: #fff;
+  width: 400px;
+  border-radius: 5px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .btns {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+
+    .edit {
+      background: #fff;
+      border: 1px solid rgb(241, 185, 110);
+      color: rgb(241, 185, 110);
+      padding: 5px 15px;
+      border-radius: 5px;
+      &:hover {
+        background: rgb(241, 185, 110);
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+    .delete {
+      background: #fff;
+      border: 1px solid rgb(236, 152, 152);
+      color: red;
+      padding: 5px 15px;
+      border-radius: 5px;
+      &:hover {
+        background: red;
+        color: #fff;
+        cursor: pointer;
+      }
+    }
+  }
+}
